@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.login-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../IMG/login_bg.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: flex-end;
+}
+.login-container #login-form{
+    height: 100vh;
+    background-color:#fff;
+    width: 35%;
+   
+  
+    padding: 40px 15px;
+}
+.login-container .register-header{
+    font-size: 40px;
+    color: #535353;
+    text-align:center;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}

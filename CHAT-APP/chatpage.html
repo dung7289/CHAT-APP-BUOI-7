@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/register.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/Login.css">
+    <link rel="stylesheet" href="../CSS/chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            MindX Chat
+        </div>
+        <div class="main">
+            <div class="aside-left">
+                <div class="create-conversation">
+                    <button class="btn cursor-pointer" id="create-conversation"> + New Conversation</button>
+                </div>
+                <div class="list-conversations">
+                    <div class="conversation current cursor-pointer">
+                        <div class="left-conversation-title">First Conversation</div>
+                        <div class="num-of-user"> 10 user</div>
+                    </div>
+                    <div class="conversation cursor-pointer">
+                        <div class="left-conversation-title">2nd Conversation</div>
+                        <div class="num-of-user"> 8 user</div>
+                    </div>
+                    <div class="conversation cursor-pointer">
+                        <div class="left-conversation-title">3st Conversation</div>
+                        <div class="num-of-user"> 2 user</div>
+                    </div>
+                </div>
+            </div>
+            <div class="conversation-detail">
+                <div class="conversation-title"> First conversation</div>
+                <div class="list-message">
+                    <div class="message mine">
+                        <div class="content">Hello</div>
+                    </div>
+                    <div class="message mine">
+                        <div class="content">Hello</div>
+                    </div>
+                    <div class="message their">
+                        <div class="owner">abc@gmail.com</div>
+                        <div class="content">Hello admin</div>
+                    </div>
+                    <div class="message their">
+                        <div class="owner">abc@gmail.com</div>
+                        <div class="content">Hello admin</div>
+                    </div>
+                </div>
+                <form id="send-message-form"> 
+                    <div class="input-wrapper">
+                        <input type="text" placeholder=" Type a message" name="message"></input>
+                        <button type="submit"><i class="fa fa-send-o" style="font-size:36px"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

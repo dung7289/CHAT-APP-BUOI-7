@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/register.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/login.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="create-conversation-wrapper">
+        <div class="header">
+            MindX Chat
+        </div>
+        <div class="main">
+
+            <form id="create-conversation-form" style=" width:60%; margin:auto; margin-top:20px">
+                <h4>Create a new conversation</h4>
+                <div class="input-wrapper">
+                    <input type="text" placeholder=" Conversation name" name="title"></input>
+                    <div class="error" id="create-conversation-title-error"></div>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" placeholder=" Friend email" name="email"></input>
+                    <div class="error" id="create-conversation-email-error"></div>
+                </div>
+                <div>
+                    <button class="btn" type="submit">Save</button>
+                    <button class="btn btn-bg-light" type="button" id="redirect-to-chat">Cancel</button>
+                </div>
+            </form>
+
+        </div>
+</body>
+
+</html>
